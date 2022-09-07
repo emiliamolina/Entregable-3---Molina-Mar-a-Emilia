@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animaciones.css">
+        <link rel="stylesheet" href="css/animate.css">
         <title>GYDA - Tienda de Objetos</title>
     </head>
     <body>
@@ -41,7 +43,7 @@
         </header>
 
         <main id="productos" class="productosMain productos">
-        <h1>Conocé nuestros productos, elegí el que más te guste y te lo enviamos!</h1>
+        <h1 class="wow animate__jackInTheBox" data-wow-duration="3s" data-wow-delay="1s" data-wow-iteration="8">Conocé nuestros productos, elegí el que más te guste y te lo enviamos!</h1>
             
         <section class="galeria productosMain">
             <figure>
@@ -57,7 +59,7 @@
         
         <h3 id="margin">Lista de Productos</h3>
         
-        <h4 id="margin">Mates de Cerámica</h4>
+        <h4 id="margin" class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">Mates de Cerámica</h4>
         <section class="galeria listadeproductos">
             <figure>
 				<img src="imagenes/mates.jpeg" alt="mate con una asa">
@@ -115,6 +117,9 @@
             <img src="imagenes/facebook.png" alt="Seguinos en Facebook" class="pie__icon--sm">
         </a>
     </footer>
-
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

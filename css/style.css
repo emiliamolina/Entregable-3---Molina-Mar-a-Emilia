@@ -159,6 +159,11 @@ main section p{
     font-size: 2rem;
 }
 
+#padding{
+    padding: 10px;
+    
+}
+
 /* .display{
     display: inline-block;
 } */

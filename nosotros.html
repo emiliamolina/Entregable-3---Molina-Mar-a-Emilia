@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animaciones.css">
+        <link rel="stylesheet" href="css/animate.css">
         <title>GYDA - Tienda de Objetos</title>
     </head>
     <body>
@@ -41,8 +43,8 @@
             </header>
         
     <main class="saltoLinea">
-        <h1 class="parrafosPadding">¿Quiénes somos?</h1>
-        <section>
+        <h1 class="textAlpha">¿Quiénes somos?</h1>
+        <section id="padding">
             <p>
             ¡Hola! Somos Vange y Lau, dos amigas que siempre soñamos con nuestro propio emprendimiento y... 
             acá estamos: HACIÉNDOLO REALIDAD!
@@ -53,7 +55,7 @@
             Tenemos manteles, almohadones, mantas, y toda una línea infantil para los más chiquitos. 
             </p>
         </section>
-        <section>    
+        <section id="padding">    
             <p>Un poco de nosotras. Nacimos y crecimos en Catamarca, amigas desde la infancia, con mucho en común:
                 disfrutamos de caminata en la montaña, de tomar mate, salir a bailar y muchas ganas de <strong>¡HACER REALIDAD NUESTRO PROPIO EMPRENDIMIENTO!</strong>
             </p>
@@ -70,6 +72,9 @@
             <img src="imagenes/facebook.png" alt="Seguinos en Facebook" class="pie__icon--sm">
         </a>
        </footer>
-
+       <script src="js/wow.min.js"></script>
+       <script>
+       new WOW().init();
+       </script>
 </body>
 </html>

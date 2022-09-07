@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animaciones.css">
     <title>GYDA - Tienda de Objetos</title>
 </head>
 <body>
@@ -40,8 +42,8 @@
             <img src="imagenes/header.jpeg" alt="Opciones de productos disponibles" class="encabezado__imagenes-fluid">
         </header>
 
-        <nav class="secondNav">
-            <b class="textLeft">Nuestros Elegidos</b>
+        <nav class="secondNav radial-gradient">
+            <b class="textLeft textBold scale">Nuestros Elegidos</b>
                 <ul>
                     <li>Mates Corazón (7)</li>
                     <li>Combo Chau Latas (12)</li>
@@ -52,17 +54,17 @@
         </nav>
 
         <main class="main">
-            <h1 class="textCenter">GYDA | Tienda de Objetos</h1>
+            <h1 class="textCenter textAlpha">GYDA | Tienda de Objetos</h1>
             <section>
                 <article class="novedades__articulo">
-                <h2>Nuestros Productos</h2>
-                <p>Acá vas a encontrar la mejor Deco, todo lo que necesitas para el mate, cerámica, agendas y mucho más!</p>
+                <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s" data-wow-iteration="1">Nuestros Productos</h2>
+                <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" data-wow-iteration="1">Acá vas a encontrar la mejor Deco, todo lo que necesitas para el mate, cerámica, agendas y mucho más!</p>
                 </article>
             </section>     
             <section>
                 <article class="novedades__articulo">
-                <h2>¿Dónde encontrarnos?</h2>
-                <p>No dudes en venir a conocer nuestro local, te esperamos de Lunes a Viernes de 10 a 18 hs</p>
+                <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s" data-wow-iteration="1">¿Dónde encontrarnos?</h2>
+                <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" data-wow-iteration="1">No dudes en venir a conocer nuestro local, te esperamos de Lunes a Viernes de 10 a 18 hs</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.381000271456!2d-65.78067283366909!3d-28.468070456686853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942428bf55c738d9%3A0xf465f4265614097a!2sRep%C3%BAblica%20550%2C%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e0!3m2!1ses-419!2sar!4v1659649086489!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </article>
             </section>
@@ -86,5 +88,11 @@
             </div>
         </footer>
     </div>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
 </body>
 </html>
